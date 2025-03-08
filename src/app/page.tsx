@@ -1,8 +1,8 @@
 'use client'
 
-import styles from "./page.module.css";
 import JoinButton from "../components/joinButton/JoinButton";
 import { NoButton } from "../components/noButton/NoButton";
+import styles from "./page.module.css";
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
         <img src="/mainPicture.png" alt="Foto Romantica" />
       </div>
 
-      <h1 className={styles.title}>¿Quieres ser mi novia?</h1>
+      <h1 className={styles.title}>¿Quieres seguir siendo mi novia?</h1>
       <JoinButton></JoinButton>
       <NoButton></NoButton>
 
